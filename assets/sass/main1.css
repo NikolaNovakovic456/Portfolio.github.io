@@ -1,0 +1,361 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  background-color: rgb(43, 42, 42);
+}
+
+@keyframes arrowSlide {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+header {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/background-cover.jpg") left/cover;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+  background-color: rgb(43, 42, 42);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  margin: 0px auto;
+  padding-top: 15px;
+  border-bottom: 1px solid whitesmoke;
+}
+header nav #logo {
+  width: 10%;
+}
+header nav #logo img {
+  width: 100%;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  position: relative;
+  transition: 0.3s;
+}
+header nav ul li a::after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: greenyellow;
+  transition: width 0.3s ease;
+  top: 20px;
+  left: 0px;
+}
+header nav ul li a:hover::after {
+  width: 100%;
+}
+header nav ul li a .first {
+  color: greenyellow;
+}
+header #central-box {
+  width: 100%;
+}
+header #central-box #text-box {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+header #central-box #text-box h1 {
+  padding-top: 10%;
+  color: greenyellow;
+  padding-bottom: 25px;
+  font-size: 3.5rem;
+}
+header #central-box #text-box .arrow {
+  margin-top: 12%;
+  font-size: 4rem;
+  text-shadow: 0 0 25px greenyellow;
+}
+header #central-box #text-box .arrow i {
+  color: greenyellow;
+  text-shadow: 0 0 25px greenyellow;
+  animation: 2s infinite alternate arrowSlide;
+}
+
+main {
+  width: 100%;
+}
+main #main-wrap {
+  width: 90%;
+  margin: 0px auto;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 25px;
+}
+main #main-wrap #author-header {
+  padding: 20px 0px;
+}
+main #main-wrap #author-header p {
+  font-size: 1.2rem;
+}
+main #main-wrap #author-header h2::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  background-color: greenyellow;
+  margin: 5px auto;
+}
+main #main-wrap #author-header p {
+  padding: 20px 0px;
+}
+main #main-wrap #id-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 30px 0px;
+  padding-bottom: 20px;
+}
+main #main-wrap #id-wrap #id {
+  width: 40%;
+  font-size: 1.5rem;
+}
+main #main-wrap #id-wrap #id .green {
+  color: greenyellow;
+  font-style: italic;
+  padding-top: 10px;
+}
+main #main-wrap #id-wrap #author-img {
+  width: 25%;
+}
+main #main-wrap #id-wrap #author-img img {
+  width: 100%;
+  box-shadow: 2px 2px 20px greenyellow;
+}
+main #skill {
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px 0px;
+}
+main #skill #skill-wrap {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main #skill #skill-wrap h2::after {
+  content: "";
+  display: block;
+  width: 190px;
+  height: 3px;
+  background-color: greenyellow;
+  margin: 5px auto;
+}
+main #skill #skill-wrap p {
+  padding: 20px 0px;
+  line-height: 20px;
+  letter-spacing: 1.1px;
+}
+main #skill #skill-container {
+  width: 80%;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+main #skill #skill-container .skillBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  background: linear-gradient(90deg, greenyellow 10%, black);
+  margin-bottom: 10px;
+  padding: 8px;
+}
+main #skill #skill-container .skillBar i {
+  font-size: 45px;
+}
+main #skill #skill-container #skill1 {
+  width: 100%;
+}
+main #skill #skill-container #skill2 {
+  width: 65%;
+}
+main #skill #skill-container #skill {
+  width: 80%;
+}
+main #main-wrap2 {
+  width: 100%;
+  margin: 20px 0px;
+}
+main #main-wrap2 h2 {
+  color: whitesmoke;
+  padding-bottom: 25px;
+  text-align: center;
+}
+main #main-wrap2 h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background-color: greenyellow;
+  margin: 5px auto;
+}
+main #main-wrap2 #project-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+main #main-wrap2 .container1 {
+  width: 30%;
+  background-color: greenyellow;
+  transition: 0.5s;
+}
+main #main-wrap2 .container1:hover {
+  transform: scale(0.9);
+}
+main #main-wrap2 img {
+  width: 100%;
+}
+main #main-wrap2 .description {
+  color: black;
+  padding: 20px 0px;
+  margin-left: 10px;
+}
+
+#wrap {
+  width: 100%;
+  background-color: black;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#wrap h2 {
+  padding: 20px 0px;
+  color: whitesmoke;
+  text-align: center;
+}
+#wrap h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background-color: greenyellow;
+  margin: 5px auto;
+}
+#wrap #content-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+#wrap #content-wrap .content1 {
+  padding: 20px 0px;
+  width: 30%;
+  background-color: greenyellow;
+  text-align: center;
+  transition: 0.5s;
+}
+#wrap #content-wrap .content1:hover {
+  background-color: whitesmoke;
+  color: greenyellow;
+}
+#wrap #content-wrap .content1:hover h2 {
+  color: black;
+}
+#wrap #content-wrap .content1 i {
+  font-size: 2rem;
+  color: black;
+}
+#wrap #content-wrap .content1 h2 {
+  text-transform: capitalize;
+}
+#wrap #content-wrap .content1 p {
+  font-weight: bold;
+}
+#wrap #form {
+  width: 55%;
+  margin: 0px auto;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 20px;
+  background-color: whitesmoke;
+}
+#wrap #form .row input {
+  padding: 10px;
+  margin: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid greenyellow;
+}
+#wrap #form .row textarea {
+  padding: 10px;
+  margin: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid greenyellow;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+}
+footer #footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px;
+}
+footer #footer-wrap a {
+  text-decoration: none;
+  color: greenyellow;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+footer #footer-wrap a:hover {
+  color: whitesmoke;
+  text-shadow: 2px 2px 20px greenyellow;
+}
+footer .links {
+  text-decoration: none;
+}
+footer .links a {
+  font-size: 1.5rem;
+  color: greenyellow;
+  margin-left: 15px;
+  transition: 0.5s;
+}
+footer .links a:hover {
+  color: whitesmoke;
+  text-shadow: 2px 2px 20px greenyellow;
+}/*# sourceMappingURL=main1.css.map */

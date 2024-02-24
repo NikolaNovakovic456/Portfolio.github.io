@@ -1,0 +1,544 @@
+@media screen and (max-width: 1330px) {
+  header #central-box #text-box h1 {
+    font-size: 3rem;
+  }
+  header nav #logo {
+    width: 15%;
+  }
+  header  nav #logo img{
+    width: 100%;
+  }
+
+  main #main-wrap #author-header p {
+    font-size: 1rem;
+  }
+
+  header #central-box #text-box .arrow {
+    font-size: 3.3rem;
+  }
+
+  #wrap #form {
+    width: 80%;
+  }
+
+  #wrap #form .row input {
+    margin: 15px;
+    padding: 9px;
+  }
+
+  #wrap #form .row textarea {
+    margin: 15px;
+    padding: 9px;
+  }
+
+  #wrap #content-wrap {
+    flex-wrap: wrap;
+  }
+
+  #wrap #content-wrap .content1 h2 {
+    font-size: 20px;
+  }
+
+  #wrap #content-wrap .content1 p {
+    font-size: 15px;
+  }
+}
+
+  @media screen and (max-width:1135px) {
+    header{
+      height: 700px;
+    }
+    header #central-box #text-box h1 {
+      font-size: 2.5rem;
+    }
+
+    header #central-box #text-box h2 {
+      font-size: 20px;
+    }
+
+    header #central-box #text-box .arrow {
+      font-size: 3.0rem;
+    }
+
+    header #logo {
+      width: 13%;
+    }
+
+    main #main-wrap #author-header p {
+      font-size: 0.8rem;
+    }
+
+    main #main-wrap #id-wrap #id {
+      width: 55%;
+      font-size: 1.2rem;
+    }
+
+    main #skill #skill-wrap p {
+      font-size: 18px;
+    }
+
+    main #skill #skill-container .skillBar {
+      padding: 6px;
+    }
+
+    main #skill #skill-container .skillBar i {
+      font-size: 35px;
+    }
+
+    #wrap #form {
+      width: 80%;
+    }
+
+    #wrap #form .row input {
+      margin: 10px;
+      padding: 10px;
+    }
+
+    #wrap #form .row textarea {
+      margin: 8px;
+      padding: 8px;
+    }
+
+    #wrap #content-wrap .content1 h2 {
+      font-size: 18px;
+    }
+
+    #wrap #content-wrap .content1 p {
+      font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width:950px) {
+    header{
+      height: 600px;
+    }
+    header #central-box #text-box h1 {
+      font-size: 2.3rem;
+    }
+
+    header nav #logo {
+      width: 15%;
+    }
+    header  nav #logo img{
+      width: 100%;
+    }
+
+    header nav {
+      font-size: 13px;
+    }
+
+    main #main-wrap #author-header p {
+      font-size: 0.7rem;
+    }
+
+    main #main-wrap #id-wrap #id {
+      width: 60%;
+      font-size: 1.0rem;
+    }
+
+    main #main-wrap #id-wrap #author-img img {
+      width: 80%;
+    }
+
+    main #skill #skill-wrap p {
+      font-size: 15px;
+    }
+
+    main #skill #skill-container .skillBar {
+      padding: 5px;
+    }
+
+    main #skill #skill-container .skillBar i {
+      font-size: 30px;
+    }
+
+    #wrap #form {
+      width: 86%;
+    }
+
+    #wrap #form .row input {
+      margin: 8px;
+      padding: 8px;
+    }
+
+    #wrap #form .row textarea {
+      margin: 8px;
+      padding: 7px;
+      width: 65%;
+    }
+
+    #wrap #content-wrap .content1 h2 {
+      font-size: 15px;
+    }
+
+    #wrap #content-wrap .content1 p {
+      font-size: 10px;
+    }
+
+    #wrap #content-wrap .content1 i {
+      font-size: 1.5rem;
+
+    }
+
+    footer #footer-wrap a {
+      font-size: 1.2rem;
+    }
+
+    footer .links a {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media screen and (max-width:870px) {
+    header{
+      height: 500px;
+    }
+    header #central-box #text-box h1 {
+      font-size: 2.0rem;
+    }
+    header #logo {
+      width: 18%;
+    }
+    header nav {
+      font-size: 12px;
+    }
+    main #main-wrap #author-header p {
+      font-size: 0.6rem;
+    }
+    main #main-wrap #id-wrap #id {
+      width: 60%;
+      font-size: 0.8rem;
+    }
+    main #main-wrap #id-wrap #author-img {
+      width: 30%;
+    }
+    #wrap #content-wrap{
+      flex-direction: column;
+    }
+    #wrap #content-wrap .content1{
+      margin-top: 12px;
+      width: 60%;
+    }
+    
+    main #skill #skill-wrap p {
+      font-size: 12px;
+    }
+    main #skill #skill-container .skillBar i {
+      font-size: 25px;
+    }
+    main #main-wrap2 .description h3{
+      font-size: 13px;
+    }
+    main #main-wrap2 .description p{
+      font-size: 13px;
+    }
+    
+    footer #footer-wrap a {
+      font-size: 1.0rem;
+    }
+
+    footer .links a {
+      font-size: 1.1rem;
+    }
+  }
+
+    @media screen and (max-width:755px) {
+      header #central-box #text-box h1 {
+        font-size: 1.8rem;
+      }
+  
+      header nav #logo {
+        width: 20%;
+      }
+      header  nav #logo img{
+        width: 100%;
+      }
+  
+      header #central-box #text-box h2 {
+        font-size: 16px;
+      }
+  
+      header #central-box #text-box .arrow {
+        font-size: 2.5rem;
+      }
+      main #main-wrap #id-wrap #author-img {
+        width: 35%;
+      }
+  
+      main #skill #skill-wrap p {
+        font-size: 10px;
+      }
+  
+      main #main-wrap2 .description h3 {
+        font-size: 11px;
+      }
+  
+      main #main-wrap2 .description p {
+        font-size: 12px;
+      }
+  
+      #wrap #content-wrap .content1 p {
+        font-size: 8px;
+      }
+  
+      #wrap #content-wrap .content1 i {
+        font-size: 1.3rem;
+      }
+  
+      footer #footer-wrap a {
+        font-size: 0.9rem;
+      }
+  
+      footer .links a {
+        font-size: 1.0rem;
+      }
+
+  }
+
+  @media screen and (max-width:680px){
+    header{
+      height: 450px;
+    }
+    header #central-box #text-box h1 {
+      font-size: 1.6rem;
+    }
+    main #main-wrap #id-wrap #author-img {
+      width: 40%;
+    }
+    main #skill #skill-wrap p {
+      font-size: 8px;
+    }
+    main #skill #skill-wrap h2{
+      font-size: 1.2rem;
+    }
+    main #skill #skill-wrap h2::after{
+      width: 18%;
+    }
+    main #main-wrap2 #project-container{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      align-items: stretch;
+    }
+    #wrap #content-wrap .content1 p {
+      font-size: 7px;
+    }
+    footer #footer-wrap a {
+      font-size: 0.8rem;
+    }
+
+    footer .links a {
+      font-size: 0.9rem;
+    }
+    main #main-wrap #author-header h2{
+      font-size: 1.2rem;
+    }
+    main #main-wrap #author-header h2::after{
+      width: 13%;
+    }
+    main #main-wrap2 h2{
+      font-size: 1.2rem;
+    }
+    main #main-wrap2 h2::after{
+      width: 12%;
+    }
+    #wrap h2{
+      font-size: 1.2rem;
+    }
+    #wrap h2::after{
+      width: 15%;
+    }
+  }
+
+  @media screen and (max-width:610px){
+    header{
+      height: 400px;
+    }
+    header nav #logo {
+      width: 20%;
+    }
+    header  nav #logo img{
+      width: 100%;
+    }
+    header #central-box #text-box h1 {
+      font-size: 1.2rem;
+    }
+    header #central-box #text-box h2 {
+      font-size:13px;
+    }
+    header nav {
+      font-size: 10px;
+    }
+    header #central-box #text-box .arrow {
+      font-size: 2.0rem;
+    }
+    main #main-wrap #id-wrap #author-img {
+      width: 45%;
+      padding: 10px;
+    }
+    main #skill #skill-wrap p {
+      display: none;
+    }
+    main #skill #skill-container .skillBar i {
+      font-size: 20px;
+    }
+    main #skill #skill-wrap h2{
+      font-size: 1.1rem;
+    }
+    main #skill #skill-wrap h2::after{
+      width: 20%;
+    }
+    main #main-wrap2 h2{
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width:450px){
+    header{
+      height: 380px;
+    }
+    header nav #logo {
+      width: 25%;
+    }
+    header  nav #logo img{
+      width: 100%;
+    }
+    header #central-box #text-box h1 {
+      font-size: 1rem;
+    }
+    header #central-box #text-box h2 {
+      font-size:10px;
+    }
+    main #main-wrap #id-wrap #author-img img {
+      width: 100%;
+    }
+    main #main-wrap #id-wrap #author-img {
+      width: 50%;
+    }
+    main #main-wrap #id-wrap #id {
+      width: 50%;
+      font-size: 11px;
+    }
+    main #skill #skill-wrap p {
+      font-size: 5px;
+    }
+    main #skill #skill-container .skillBar i {
+      font-size: 16px;
+    }
+    main #main-wrap2 .container1{
+      width: 80%;
+    }
+    #wrap #content-wrap .content1{
+      width: 80%;
+    }
+
+    #wrap #form .row textarea{
+      width: 53%;
+    }
+
+    main #main-wrap2 .description h3 {
+      font-size: 9px;
+    }
+
+    main #main-wrap2 .description p {
+      font-size: 10px;
+    }
+    footer #footer-wrap a {
+      font-size: 0.6rem;
+    }
+
+    footer .links a {
+      font-size: 0.7rem;
+    }
+    main #skill #skill-wrap h2::after{
+      width: 30%;
+    }
+    #wrap h2{
+      font-size: 1rem;
+    }
+    #wrap h2::after{
+      width: 15%;
+    }
+  }
+  @media screen and (max-width:380px){
+    header{
+      height: 300px;
+    }
+    header #central-box #text-box h1 {
+      font-size: 0.8rem;
+    }
+    header #central-box #text-box h2 {
+      font-size:8px;
+    }
+    header nav {
+      flex-direction: column;
+      font-size: 10px;
+      padding-bottom: 5px;
+    }
+    header nav #logo {
+      width: 25%;
+    }
+    header  nav #logo img{
+      width: 100%;
+    }
+    main #main-wrap #author-header p {
+      font-size: 0.5rem;
+      padding: 0px 10px;
+    }
+    main #main-wrap #id-wrap {
+      flex-direction: column;
+      margin: 0px;
+    }
+    main #main-wrap{
+      margin-bottom: 30px;
+    }
+    main #main-wrap #id-wrap #id {
+      font-size: 0.7rem;
+    }
+    main #main-wrap2 .description h3 {
+      font-size: 8px;
+    }
+
+    main #main-wrap2 .description p {
+      font-size: 6px;
+    }
+    main #main-wrap2 #project-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    main #main-wrap #author-header h2{
+      font-size: 15px;
+    }
+    main #main-wrap #author-header h2::after{
+      width: 15%;
+    }
+    main #skill #skill-wrap h2{
+      font-size: 1rem;
+    }
+    main #skill #skill-wrap h2::after{
+      width: 40%;
+    }
+    footer #footer-wrap a {
+      font-size: 0.5rem;
+    }
+
+    footer .links a {
+      font-size: 0.5rem;
+    }  
+    main #main-wrap2 h2{
+      font-size: 0.9rem;
+    }
+    main #main-wrap2 h2::after{
+      width: 15%;
+    }
+    #wrap #form .row textarea{
+      width: 65%;
+    }
+  }
+
+
+
+
+
+
+
